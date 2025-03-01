@@ -320,14 +320,7 @@ async function evaluateTranslation() {
                 {
                     parts: [
                         {
-                            text: `你是一位專業的中英翻譯評估專家。請評估以下翻譯的準確性和自然度。
-                            原始中文: ${chineseSentence}
-                            用戶的英文翻譯: ${userTranslation}
-                            請以JSON格式回覆，格式如下：
-                            {
-                                "score": 1到10之間的數字,
-                                "feedback": 用繁體中文（台灣）詳細說明優點和需要改進的地方
-                            }`
+                            text: `你是一位專業的中英翻譯評估專家。請評估以下翻譯的準確性和自然度。原始中文: ${chineseSentence} 用戶的英文翻譯: ${userTranslation} 請以JSON格式回覆，格式如下：{"score": 1到10之間的數字,"feedback": 用繁體中文（台灣）詳細說明優點和需要改進的地方}`
                         }
                     ]
                 }
